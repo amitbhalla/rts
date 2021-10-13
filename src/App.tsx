@@ -1,6 +1,11 @@
 import './App.css';
+import Parent from './props/Parent';
 
-function App() {
-  return <div className="App">Hello, World!</div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Parent />
+    </div>
+  );
+};
 export default App;
